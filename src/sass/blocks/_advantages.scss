@@ -17,6 +17,12 @@
         a {
             color: $main-color;
         }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__name {
         margin: 38px 0 26px 0;
